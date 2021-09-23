@@ -1,17 +1,19 @@
 import './App.css';
-import { Button, Col, Row } from 'react-bootstrap';
+
 
 
 
 function App() {
   return (
     <div className="App mx-0">
-      <Row className="">
-        <Button as={Col} variant="primary" >Click Me</Button>
-        <Button as={Col} variant="success" className="mx-2" >Click Me</Button>
-        <Button as={Col} variant="secondary" >Click Me</Button>
-        <Button as={Col} className="mine mx-2">Click Me</Button>
-      </Row>
+      <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
     </div>
   );
 }
