@@ -1,6 +1,7 @@
 import './App.css';
 import ContainerExample from './components/pages/ContainerExample';
 import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRowColum';
+import NestedColumn from './components/pages/NestedColumn';
 
 
 
@@ -8,9 +9,11 @@ import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRo
 function App() {
   return (
     <div className="App">
-      <ContainerExample />
+      {/* <ContainerExample />
 
-      <LargeContainerWithRowColumn />
+      <LargeContainerWithRowColumn /> */}
+
+      <NestedColumn />
     </div>
   );
 }
