@@ -5,6 +5,7 @@ import FlexBoxItemSelf from './components/pages/FlexBoxItemSelf';
 import FlexBoxJustifyContent from './components/pages/FlexBoxJustifyContent';
 import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRowColum';
 import NestedColumn from './components/pages/NestedColumn';
+import Order from './components/pages/Order';
 
 
 
@@ -22,7 +23,9 @@ function App() {
 
       {/* <FlexBoxItemSelf /> */}
 
-      <FlexBoxJustifyContent />
+      {/* <FlexBoxJustifyContent /> */}
+
+      <Order />
     </div>
   );
 }
