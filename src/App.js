@@ -7,6 +7,7 @@ import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRo
 import NestedColumn from './components/pages/NestedColumn';
 import Offset from './components/pages/Offset';
 import Order from './components/pages/Order';
+import Table from './components/pages/Table';
 
 
 
@@ -28,7 +29,9 @@ function App() {
 
       {/* <Order /> */}
 
-      <Offset />
+      {/* <Offset /> */}
+
+      <Table />
     </div>
   );
 }
