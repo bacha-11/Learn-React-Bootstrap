@@ -2,6 +2,7 @@ import './App.css';
 import AutoColumAndRow from './components/pages/AutoColumAndRow';
 import ContainerExample from './components/pages/ContainerExample';
 import FlexBoxItemSelf from './components/pages/FlexBoxItemSelf';
+import FlexBoxJustifyContent from './components/pages/FlexBoxJustifyContent';
 import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRowColum';
 import NestedColumn from './components/pages/NestedColumn';
 
@@ -19,7 +20,9 @@ function App() {
 
       {/* <AutoColumAndRow /> */}
 
-      <FlexBoxItemSelf />
+      {/* <FlexBoxItemSelf /> */}
+
+      <FlexBoxJustifyContent />
     </div>
   );
 }
