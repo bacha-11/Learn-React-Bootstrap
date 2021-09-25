@@ -1,6 +1,7 @@
 import './App.css';
 import AutoColumAndRow from './components/pages/AutoColumAndRow';
 import ContainerExample from './components/pages/ContainerExample';
+import FlexBoxItemSelf from './components/pages/FlexBoxItemSelf';
 import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRowColum';
 import NestedColumn from './components/pages/NestedColumn';
 
@@ -16,7 +17,9 @@ function App() {
 
       {/* <NestedColumn /> */}
 
-      <AutoColumAndRow />
+      {/* <AutoColumAndRow /> */}
+
+      <FlexBoxItemSelf />
     </div>
   );
 }
