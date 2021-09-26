@@ -1,6 +1,7 @@
 import './App.css';
 import AutoColumAndRow from './components/pages/AutoColumAndRow';
 import ContainerExample from './components/pages/ContainerExample';
+import FAQ from './components/pages/FAQ';
 import FlexBoxItemSelf from './components/pages/FlexBoxItemSelf';
 import FlexBoxJustifyContent from './components/pages/FlexBoxJustifyContent';
 import HomePage from './components/pages/HomePage';
@@ -35,6 +36,8 @@ function App() {
       {/* <Table /> */}
 
       <HomePage />
+
+      <FAQ />
     </div>
   );
 }

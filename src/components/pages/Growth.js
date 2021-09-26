@@ -3,7 +3,7 @@ import growth from "../images/growth.jpg"
 
 function Growth() {
     return (
-        <div className="container-fluit">
+        <div className="container-xxl">
             <div className="row justify-content-evenly mt-2 mb-5">
 
                 <div className="col-md-5 mt-3">

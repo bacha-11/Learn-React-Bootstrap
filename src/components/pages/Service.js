@@ -2,7 +2,7 @@
 
 function Service() {
     return (
-        <div className="container-fluit">
+        <div className="container-xxl">
             <div className="row">
                 <div className="col-12 mt-5">
                     <h5 className="display-5 text-center">Lorem Ipsum is simply dummy text  <br />
