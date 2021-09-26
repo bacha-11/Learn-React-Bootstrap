@@ -10,7 +10,7 @@ function Service() {
                 </div>
             </div>
 
-            <div className="row justify-content-evenly ">
+            <div className="row justify-content-evenly mb-5">
                 <div className="col-md-3 text-center mt-5">
                     <h1 className="text-danger"><i className="bi bi-file-code-fill"></i></h1>
                     <h3>Web Developer</h3>
