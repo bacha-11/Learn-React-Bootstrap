@@ -1,9 +1,12 @@
 
 import Contact from "./Contact";
+import FAQ from "./FAQ";
+import Footer from "./Footer";
 import Growth from "./Growth";
 import NavBar from "./NavBar";
 import Service from "./Service";
 import Slider from "./Slider";
+
 
 
 function HomePage() {
@@ -22,6 +25,10 @@ function HomePage() {
             <Growth />
 
             <Contact />
+
+            <FAQ />
+
+            <Footer />
             
 
         </div>
