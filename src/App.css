@@ -4,23 +4,6 @@
    box-sizing: border-box;
 }
 
-.mine{
-   background-color: #272727 !important; 
-   border: 1px solid #272727 !important;
-}
-
-.common{
-   background-color: #272727;
-   margin: 10px;
-   height: 70px;
-   color: #fff;
-}
-
-.container-fluit{
-   height: 80vh;
-}
-
-
-.row{
-   height: 300px;
+.Nav-height{
+   height: 8vh;
 }

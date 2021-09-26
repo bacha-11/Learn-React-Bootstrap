@@ -3,6 +3,7 @@ import AutoColumAndRow from './components/pages/AutoColumAndRow';
 import ContainerExample from './components/pages/ContainerExample';
 import FlexBoxItemSelf from './components/pages/FlexBoxItemSelf';
 import FlexBoxJustifyContent from './components/pages/FlexBoxJustifyContent';
+import HomePage from './components/pages/HomePage';
 import LargeContainerWithRowColumn from './components/pages/LargeContainerWithRowColum';
 import NestedColumn from './components/pages/NestedColumn';
 import Offset from './components/pages/Offset';
@@ -31,7 +32,9 @@ function App() {
 
       {/* <Offset /> */}
 
-      <Table />
+      {/* <Table /> */}
+
+      <HomePage />
     </div>
   );
 }
