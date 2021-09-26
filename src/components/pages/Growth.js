@@ -4,13 +4,13 @@ import growth from "../images/growth.jpg"
 function Growth() {
     return (
         <div className="container-fluit">
-            <div className="row justify-content-evenly mt-5 mb-5">
+            <div className="row justify-content-evenly mt-2 mb-5">
 
-                <div className="col-md-5">
+                <div className="col-md-5 mt-3">
                     <img src={growth} className="d-block w-100 img-fluid shadow" alt="..." />
                 </div>
 
-                <div className="col-md-5 align-items-center mx-4">
+                <div className="col-md-5  mt-3">
 
                     <h5 className="mt-2">HTML</h5>
                     <div className="progress">
