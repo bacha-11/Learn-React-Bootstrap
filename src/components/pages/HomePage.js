@@ -1,5 +1,6 @@
 
 import NavBar from "./NavBar";
+import Service from "./Service";
 import Slider from "./Slider";
 
 
@@ -9,6 +10,8 @@ function HomePage() {
             <NavBar />
 
             <Slider />
+
+            <Service />
 
 
             
